@@ -1,0 +1,20 @@
+from https://github.com/technosophos/tscharts
+
+$ helm create mychart
+$ helm package mychart
+$ mv mychart-0.1.0.tgz docs
+$ helm repo index docs --url https://technosophos.github.com/tscharts
+$ git add -i
+$ git commit -av
+$ git push origin master
+
+
+percona-helm-charts/charts$ helm package ps-db
+Successfully packaged chart and saved it to: /home/csa/work/local/percona-helm-charts/charts/ps-db-0.9.1.tgz
+
+$ mv ps-db-0.9.1.tgz ../../chernomor.github.io/charts/
+$ cd ../../chernomor.github.io/
+$ helm repo index charts/ --url chernomor.github.io/charts
+$ git add charts
+$ git commit
+$ git push
