@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  ps-db:
+  - apiVersion: v2
+    appVersion: 0.9.1
+    created: "2025-05-27T17:01:29.94449731+03:00"
+    description: A Helm chart for installing Percona Server Databases using the PS
+      Operator.
+    digest: c41cc9c010fd81dfab97e1871bd015ae1f5ce4956b0b309793df7371642faa37
+    home: https://www.percona.com/doc/kubernetes-operator-for-mysql/ps
+    maintainers:
+    - email: julio.pasinatto@percona.com
+      name: jvpasinatto
+    - email: natalia.marukovich@percona.com
+      name: nmarukovich
+    - email: pavel.tankov@percona.com
+      name: ptankov
+    name: ps-db
+    urls:
+    - chernomor.github.io/charts/ps-db-0.9.1.tgz
+    version: 0.9.1
+generated: "2025-05-27T17:01:29.943459821+03:00"
