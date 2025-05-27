@@ -14,7 +14,7 @@ Successfully packaged chart and saved it to: /home/csa/work/local/percona-helm-c
 
 $ mv ps-db-0.9.1.tgz ../../chernomor.github.io/charts/
 $ cd ../../chernomor.github.io/
-$ helm repo index charts/ --url chernomor.github.io/charts
+$ helm repo index charts
 $ git add charts
 $ git commit
 $ git push

@@ -3,7 +3,7 @@ entries:
   ps-db:
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2025-05-27T17:01:29.94449731+03:00"
+    created: "2025-05-27T21:12:15.249087294+03:00"
     description: A Helm chart for installing Percona Server Databases using the PS
       Operator.
     digest: c41cc9c010fd81dfab97e1871bd015ae1f5ce4956b0b309793df7371642faa37
@@ -17,6 +17,6 @@ entries:
       name: ptankov
     name: ps-db
     urls:
-    - chernomor.github.io/charts/ps-db-0.9.1.tgz
+    - ps-db-0.9.1.tgz
     version: 0.9.1
-generated: "2025-05-27T17:01:29.943459821+03:00"
+generated: "2025-05-27T21:12:15.246482064+03:00"
